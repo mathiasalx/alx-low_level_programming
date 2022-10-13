@@ -9,7 +9,7 @@
  */
 int print(char *str)
 {
-	while(*str) {
+	while(*str != '\0') {
 		putchar(*str);
 		str++;
 	}
@@ -28,7 +28,7 @@ int print(char *str)
  */
 int main(void)
 {
-	char str[58] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
 	print(str);
 	putchar('\n');
