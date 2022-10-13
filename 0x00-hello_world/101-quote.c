@@ -2,6 +2,7 @@
 
 /**
  * print - prints content to stdout
+ * @str: The string to print
  *
  * Description: prints the provided description to stdout using putchar
  *
@@ -27,7 +28,7 @@ int print(char *str)
  *
  * Return: 1
  */
-int main (void)
+int main(void)
 {
 	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
