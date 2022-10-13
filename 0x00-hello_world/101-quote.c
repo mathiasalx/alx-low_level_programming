@@ -9,12 +9,13 @@
  */
 int print(char *str)
 {
-	while(*str != '\0') {
+	while (*str != '\0')
+	{
 		putchar(*str);
 		str++;
 	}
 
-	return 0;
+	return (0);
 }
 
 /**
@@ -26,7 +27,7 @@ int print(char *str)
  *
  * Return: 1
  */
-int main(void)
+int main (void)
 {
 	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
