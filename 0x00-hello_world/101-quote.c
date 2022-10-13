@@ -6,7 +6,7 @@
  *
  * Description: prints the provided description to stdout using putchar
  *
- * Return 0
+ * Return: 0
  */
 int print(char *str)
 {
