@@ -12,7 +12,7 @@
  */
 int print(int n, int last_digit, char *followed_by)
 {
-	printf("Last digit of %d is %d and is %s \n", n, last_digit, followed_by);
+	printf("Last digit of %d is %d and is %s\n", n, last_digit, followed_by);
 	return (0);
 }
 
