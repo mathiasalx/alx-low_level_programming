@@ -1,0 +1,4 @@
+*.out
+*.s
+size32
+size64
